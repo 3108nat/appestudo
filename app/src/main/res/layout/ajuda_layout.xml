@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#E0F2FE"
+    android:layout_height="match_parent"
+    tools:context=".ajudaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Ajuda"
+        android:textColor="#0B1F44"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardIdent2"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+     android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="#1E3A8A"
+        app:cardCornerRadius="28dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:text="1. Cadastre seus estudos"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:text="2.Consulte seus Registros"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:gravity="center"
+            android:text="3. Visualize Estatísticas"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:gravity="center"
+            android:text="4. Atualizar seu Perfil"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/btnvoltarMenu"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:backgroundTint = "#0B1F44"
+        android:text="Voltar menu" />
+
+</LinearLayout>
