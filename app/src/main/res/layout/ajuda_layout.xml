@@ -28,10 +28,9 @@
         android:layout_height="300dp"
      android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-
         android:clickable="true"
         android:focusable="true"
-        app:cardBackgroundColor="#1E3A8A"
+        app:cardBackgroundColor="#A6C8E2"
         app:cardCornerRadius="28dp">
 
         <TextView
@@ -40,7 +39,7 @@
             android:layout_margin="5dp"
             android:gravity="center_horizontal"
             android:text="1. Cadastre seus estudos"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="30dp" />
 
         <TextView
@@ -48,7 +47,7 @@
             android:layout_height="200dp"
             android:gravity="center"
             android:text="2.Consulte seus Registros"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="30dp"/>
 
         <TextView
@@ -56,7 +55,7 @@
             android:layout_height="350dp"
             android:gravity="center"
             android:text="3. Visualize Estatísticas"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="30dp" />
 
 
@@ -65,7 +64,7 @@
             android:layout_height="500dp"
             android:gravity="center"
             android:text="4. Atualizar seu Perfil"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="30dp" />
     </androidx.cardview.widget.CardView>
 

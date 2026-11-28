@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#E0F2FE"
     tools:context=".resumoActivity">
 
 
@@ -22,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nome"
+        android:layout_marginTop="20dp"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
@@ -34,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
+            android:layout_margin="20dp"
             android:maxLength="50" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -41,6 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Curso"
+        android:layout_marginTop="20dp"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
@@ -53,12 +57,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
+            android:layout_margin="20dp"
             android:maxLength="50" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Turma"
+            android:layout_marginTop="20dp"
             android:textColor="@color/black"
             android:textStyle="bold" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -72,25 +78,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
+            android:layout_margin="20dp"
             android:maxLength="50" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnCadastrarestudo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
+        android:layout_marginTop="150dp"
+        app:cornerRadius="1dp"
+        android:backgroundTint = "#0B1F44"
         android:text="Salva perfil" />
 
 
 
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnvoltarMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:cornerRadius="1dp"
+        android:backgroundTint = "#0B1F44"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
         android:text="Voltar menu" />

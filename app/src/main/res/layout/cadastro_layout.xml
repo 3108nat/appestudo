@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E0F2FE"
     android:orientation="vertical"
     tools:context=".cadastroActivity">
 
@@ -13,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Cadastro de Estudo"
-        android:textColor="@color/black"
+        android:textColor="#0B1F44"
         android:textSize="40dp"
         android:textStyle="bold" />
 
@@ -32,25 +33,28 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="20dp"
             android:inputType="textEmailAddress"
             android:maxLength="50" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Atividade"
         android:textColor="@color/black"
         android:textStyle="bold" />
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:endIconMode="clear_text"
-        >
+        app:endIconMode="clear_text">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="90dp"
             android:inputType="textEmailAddress"
+            android:layout_margin="20dp"
             android:maxLength="50" />
 
         <TextView
@@ -64,42 +68,50 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:endIconMode="clear_text"
-       >
+        app:endIconMode="clear_text">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
+            android:layout_margin="20dp"
             android:maxLength="50" />
     </com.google.android.material.textfield.TextInputLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
->
-    <Button
-        android:id="@+id/btnCadastrarestudo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
-        android:text="Salvar" />
 
-    <Button
-        android:id="@+id/btnlimpar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
-        android:text="Limpar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCadastrarestudo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="90dp"
+            app:cornerRadius="1dp"
+            android:backgroundTint="#0B1F44"
+            android:text="Salvar" />
+
+      <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnlimpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+          app:cornerRadius="1dp"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="#0B1F44"
+            android:text="Limpar" />
 
 
-</LinearLayout>
-    <Button
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnvoltarMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
-        android:text="Limpar" />
+        android:layout_marginTop="150dp"
+        app:cornerRadius="1dp"
+        android:backgroundTint="#0B1F44"
+        android:text="Voltar ao menu" />
 </LinearLayout>

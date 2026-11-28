@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#E0F2FE"
     tools:context=".estatisticaActivity">
 
 
@@ -26,7 +27,7 @@
         android:layout_margin="10dp"
         android:clickable="true"
         android:focusable="true"
-        app:cardBackgroundColor="#2EA8CE"
+        app:cardBackgroundColor="#A6C8E2"
         app:cardCornerRadius="28dp">
 
         <TextView
@@ -57,7 +58,7 @@
         android:layout_margin="10dp"
         android:clickable="true"
         android:focusable="true"
-        app:cardBackgroundColor="#2EA8CE"
+        app:cardBackgroundColor="#A6C8E2"
         app:cardCornerRadius="28dp">
 
         <TextView
@@ -88,7 +89,7 @@
         android:layout_margin="10dp"
         android:clickable="true"
         android:focusable="true"
-        app:cardBackgroundColor="#2EA8CE"
+        app:cardBackgroundColor="#A6C8E2"
         app:cardCornerRadius="28dp">
 
         <TextView
@@ -112,20 +113,24 @@
 
     </androidx.cardview.widget.CardView>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnatualizar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
+        android:backgroundTint = "#0B1F44"
+        app:cornerRadius="1dp"
         android:text="Atualizar" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnvoltarMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
+        app:cornerRadius="1dp"
+        android:backgroundTint = "#0B1F44"
         android:text="Voltar menu" />
 
 

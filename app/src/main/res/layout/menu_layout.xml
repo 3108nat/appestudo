@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#E0F2FE"
     tools:context=".menuActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:text="Menu Principal"
         android:textColor="@color/black"
         android:textSize="40dp"
@@ -19,59 +19,73 @@
         android:textStyle="bold" />
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btncadastrar"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
+        app:cornerRadius="1dp"
+        android:backgroundTint = "#0B1F44"
         android:text="CADASTRAR ESTUDO" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnconsultar"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
+        app:cornerRadius="1dp"
+        android:backgroundTint = "#0B1F44"
         android:text="CONSULTAR ESTUDO" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnperfil"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
+        android:backgroundTint = "#0B1F44"
+        app:cornerRadius="1dp"
         android:text="PERFIL DO ESTUDANTE" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnestatistica"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
+        app:cornerRadius="1dp"
+        android:backgroundTint = "#0B1F44"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
         android:text="ESTATÍSTICA" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnajuda"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="AJUDA"
+        android:backgroundTint = "#0B1F44"
+        app:cornerRadius="1dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
         />
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnsobre"
-        android:layout_width="wrap_content"
+        app:cornerRadius="1dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="SOBRE"
+        android:backgroundTint = "#0B1F44"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
         />
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSair"
-        android:layout_width="wrap_content"
+        app:cornerRadius="1dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="SAIR"
+        android:backgroundTint = "#0B1F44"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
         />
